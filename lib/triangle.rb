@@ -1,7 +1,7 @@
 class Triangle
   attr_reader :a, :b, :c
   def initialize(a, b, c)
-    @
+    @all
     @a = a
     @b = b
     @c = c
