@@ -6,8 +6,8 @@ class Triangle
     @c = c
   end
   
-  def kind
-   @a == @b && @b == @c && @c == @a
+  def kind(a, b, c)
+  if @a == @b && @b == @c && @c == @a
      :equilateral
   end
 
