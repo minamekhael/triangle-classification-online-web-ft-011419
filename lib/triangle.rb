@@ -10,8 +10,11 @@ class Triangle
   if @a == @b && @b == @c && @c == @a
      :equilateral
      
-   else 
+   elsif
      :isosceles
+     
+   else 
+     :scalene
    end
   end
 
