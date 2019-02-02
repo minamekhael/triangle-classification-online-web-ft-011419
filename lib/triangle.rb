@@ -10,6 +10,7 @@ class Triangle
    when @a == @b && @b == @c && @c == @a
      :equilateral
   end
+end
 
 class TriangleError < StandardError
 end
