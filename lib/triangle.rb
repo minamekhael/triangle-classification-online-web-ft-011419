@@ -11,6 +11,7 @@ class Triangle
     :equilateral
   elsif @b == @b || @c == @c
     :isoceles
+  else
     end
 
 class TriangleError < StandardError
