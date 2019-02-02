@@ -9,7 +9,7 @@ class Triangle
   def kind
   if (@a <= 0) || (@b <= 0) || (@c <= 0)
       raise TriangleError
-  elsif (@side_1+@side_2 <= @side_3) || (@side_1+@side_3 <= @side_2) || (@side_2+@side_3 <= @side_1)
+  elsif (@a + @b <= @c)
       raise TriangleError
   elsif @a == @b && @b == @c
     :equilateral
