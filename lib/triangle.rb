@@ -6,9 +6,13 @@ class Triangle
     @c = c
   end
   
-  def kind(a, b, c)
+  def kind
   if @a == @b && @b == @c && @c == @a
      :equilateral
+     
+   else 
+     :isosceles
+   end
   end
 
 class TriangleError < StandardError
