@@ -11,6 +11,7 @@ class Triangle
      :equilateral
      
    elsif
+   @a == @b || @b == @a 
      :isosceles
      
    else 
