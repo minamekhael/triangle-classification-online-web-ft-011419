@@ -7,12 +7,8 @@ class Triangle
   end
   
   def kind
-   if @a == @b + @c
-    :equilateral
-  elsif @b == @b || @c == @c
+  @b == @b || @c == @c
     :isoceles
-  else
-    end
   end
 
 class TriangleError < StandardError
