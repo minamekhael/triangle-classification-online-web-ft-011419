@@ -9,7 +9,6 @@ class Triangle
   def kind
     @a == @b, @c
       :equilateral
-    else
     end
 
 class TriangleError < StandardError
