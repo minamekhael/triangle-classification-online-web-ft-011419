@@ -7,7 +7,7 @@ class Triangle
   end
   
   def kind
-    if @a == @b, @c
+    @a == @b, @c
       :equilateral
     else
     end
